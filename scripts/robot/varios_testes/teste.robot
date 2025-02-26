@@ -3,6 +3,6 @@ Library                  ../../../libs/sikulix.py
 
 *** Test Cases ***
 Teste1 Exemplo
-    Run Sikuli Script    ../../sikuli/teste.sikuli/teste.py
+    Run Sikuli Script    ${CURDIR}${/}..\\..\\sikuli\\teste.sikuli\\teste.py
 Teste2 Exemplo
-    Run Sikuli Script    ../../sikuli/teste2.sikuli/teste2.py
+    Run Sikuli Script    ${CURDIR}${/}..\\..\\sikuli\\teste2.sikuli\\teste2.py
